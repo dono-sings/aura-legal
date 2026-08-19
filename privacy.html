@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for Aura">
+  <title>Aura Privacy Policy</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #0b0b0d;
+      color: #f5f5f7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 64px 0 80px;
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      margin-bottom: 36px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 7vw, 48px);
+      line-height: 1.1;
+      margin: 0 0 12px;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      font-size: 21px;
+      margin-top: 42px;
+      margin-bottom: 12px;
+    }
+
+    p, li {
+      color: #c9c9cf;
+      font-size: 16px;
+    }
+
+    .effective-date {
+      color: #8f8f98;
+      margin-bottom: 48px;
+    }
+
+    strong { color: #f5f5f7; }
+
+    a {
+      color: #8ab4ff;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    ul { padding-left: 22px; }
+
+    footer {
+      border-top: 1px solid #27272c;
+      margin-top: 56px;
+      padding-top: 24px;
+      color: #8f8f98;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+<main>
+
+  <div class="brand">AURA</div>
+
+  <h1>Privacy Policy</h1>
+  <p class="effective-date">Effective Date: August 19, 2026</p>
+
+  <h2>1. Introduction</h2>
+  <p>
+    Aura ("Aura," "we," "us," or "our") provides an AI-powered photo
+    analysis service designed to help users evaluate and compare photos
+    based on selected goals, preferences, and other context.
+  </p>
+
+  <p>
+    This Privacy Policy explains how information is collected, used,
+    processed, and shared when you use the Aura mobile application and
+    related services.
+  </p>
+
+  <p>
+    If you have questions about this Privacy Policy, contact us at
+    <a href="mailto:getaurasupport@gmail.com">getaurasupport@gmail.com</a>.
+  </p>
+
+  <h2>2. Information Aura Processes</h2>
+
+  <p><strong>Photos and photo-related information</strong></p>
+
+  <p>
+    When you choose photos for analysis, Aura accesses only the photos
+    you select through your device's photo picker.
+  </p>
+
+  <p>
+    Selected images may be resized or compressed on your device before
+    being transmitted for analysis.
+  </p>
+
+  <p>
+    The selected photos are sent to Aura's backend infrastructure and
+    then provided to OpenAI's API so that artificial intelligence models
+    can analyze them and generate your results.
+  </p>
+
+  <p>
+    Aura's current backend does not save submitted photos to an Aura
+    database or Supabase Storage. However, third-party service providers
+    involved in processing your request may process or temporarily retain
+    information according to their own policies and service configurations.
+  </p>
+
+  <p>
+    OpenAI states that data submitted through its API is not used to train
+    its models by default unless the API customer opts into data sharing.
+    OpenAI also states that API inputs and outputs may generally be retained
+    for up to 30 days for service operation and abuse monitoring, subject
+    to applicable configurations and legal requirements.
+  </p>
+
+  <p><strong>Analysis preferences and results</strong></p>
+
+  <p>
+    Aura processes information you provide for an analysis, such as your
+    selected goal, vibe, audience, and other analysis settings.
+  </p>
+
+  <p>
+    OpenAI generates analysis results based on the information and photos
+    submitted with the request.
+  </p>
+
+  <p><strong>Anonymous account information</strong></p>
+
+  <p>
+    Aura uses Supabase anonymous authentication to create an anonymous
+    user identifier needed to operate and protect the service. Aura does
+    not currently require you to create an account using your name, email
+    address, or password.
+  </p>
+
+  <p><strong>Usage and analytics information</strong></p>
+
+  <p>
+    Aura uses PostHog to understand how people use the app and improve
+    the product.
+  </p>
+
+  <p>Analytics may include events such as:</p>
+
+  <ul>
+    <li>app and screen activity;</li>
+    <li>goals or plans selected;</li>
+    <li>number of photos selected;</li>
+    <li>analysis completion or failure;</li>
+    <li>subscription-paywall interactions; and</li>
+    <li>purchase or restore outcomes.</li>
+  </ul>
+
+  <p>
+    Aura's configured analytics events are designed not to send your
+    selected photo files, photo URIs, photo base64 data, AI-generated
+    feedback, authentication tokens, or raw RevenueCat customer
+    information to PostHog.
+  </p>
+
+  <p>
+    Touch autocapture is currently disabled, and Session Replay is
+    currently disabled.
+  </p>
+
+  <p><strong>Subscription information</strong></p>
+
+  <p>
+    If you purchase Aura Pro, purchases are processed through Apple's
+    App Store and StoreKit. Aura uses RevenueCat to manage subscription
+    products, purchase status, restoration, and entitlement information.
+  </p>
+
+  <p>
+    Aura does not directly receive or process your full payment-card
+    information.
+  </p>
+
+  <p><strong>Abuse-prevention information</strong></p>
+
+  <p>
+    Aura maintains limited server-side usage counters associated with an
+    anonymous user identifier to prevent automated abuse and excessive
+    requests.
+  </p>
+
+  <p>
+    These counters contain request counts and timestamps. They are not
+    designed to contain submitted photos, prompts, AI-generated results,
+    RevenueCat data, or PostHog analytics data.
+  </p>
+
+  <h2>3. How We Use Information</h2>
+
+  <p>We use information processed through Aura to:</p>
+
+  <ul>
+    <li>provide photo analysis and comparison features;</li>
+    <li>generate AI-powered results;</li>
+    <li>maintain and improve Aura;</li>
+    <li>understand general app usage and performance;</li>
+    <li>manage Aura Pro subscription access;</li>
+    <li>restore purchases;</li>
+    <li>prevent abuse and excessive automated requests;</li>
+    <li>troubleshoot errors and maintain reliability; and</li>
+    <li>comply with applicable legal obligations.</li>
+  </ul>
+
+  <h2>4. Service Providers</h2>
+
+  <p>
+    Aura relies on third-party providers to operate portions of the
+    service, including:
+  </p>
+
+  <p><strong>OpenAI</strong> — AI processing and generation.</p>
+  <p><strong>Supabase</strong> — backend infrastructure, authentication, Edge Functions, and database services.</p>
+  <p><strong>RevenueCat</strong> — subscription and entitlement management.</p>
+  <p><strong>PostHog</strong> — product analytics.</p>
+  <p><strong>Apple</strong> — App Store distribution, StoreKit purchases, subscription billing, and related platform services.</p>
+
+  <p>
+    These providers may process information according to their respective
+    terms, privacy policies, and service configurations.
+  </p>
+
+  <h2>5. Photo Storage</h2>
+
+  <p>
+    Aura's current application architecture does not intentionally save
+    submitted analysis photos to an Aura database or Supabase Storage.
+  </p>
+
+  <p>
+    Photos must nevertheless be transmitted to the services necessary to
+    perform the requested analysis, including OpenAI.
+  </p>
+
+  <p>
+    We do not promise that every third-party processor immediately deletes
+    information after an analysis. Retention by third-party providers is
+    governed by their applicable policies, agreements, and configurations.
+  </p>
+
+  <h2>6. Data Security</h2>
+
+  <p>
+    We take reasonable measures designed to protect information handled
+    through Aura. However, no electronic transmission, service, or storage
+    system can be guaranteed to be completely secure.
+  </p>
+
+  <p>
+    You should only submit photos and information that you are comfortable
+    providing for AI analysis.
+  </p>
+
+  <h2>7. Your Choices</h2>
+
+  <p>You control which photos you select for analysis.</p>
+
+  <p>
+    You may decline to select or submit a photo, although Aura's analysis
+    features cannot operate without the information necessary to perform
+    the requested analysis.
+  </p>
+
+  <p>
+    You may manage or cancel an Aura Pro subscription through your Apple
+    Account subscription settings.
+  </p>
+
+  <p>
+    Depending on where you live, applicable law may provide additional
+    privacy rights regarding your personal information. You may contact
+    <a href="mailto:getaurasupport@gmail.com">getaurasupport@gmail.com</a>
+    with privacy-related requests or questions.
+  </p>
+
+  <h2>8. Children's Privacy</h2>
+
+  <p>Aura is not intended for children under 13.</p>
+
+  <p>
+    If we learn that personal information from a child under 13 has been
+    collected in a manner inconsistent with applicable law, we will take
+    appropriate steps to address it.
+  </p>
+
+  <h2>9. International Processing</h2>
+
+  <p>
+    The third-party providers used to operate Aura may process information
+    in locations outside your state, country, or region. Privacy protections
+    may differ between jurisdictions.
+  </p>
+
+  <h2>10. Changes to This Privacy Policy</h2>
+
+  <p>
+    We may update this Privacy Policy as Aura evolves or as legal,
+    technical, or operational requirements change.
+  </p>
+
+  <p>
+    When we make changes, we may update the effective date displayed at
+    the top of this policy.
+  </p>
+
+  <h2>11. Contact</h2>
+
+  <p>
+    For privacy questions or requests:
+  </p>
+
+  <p>
+    <strong>Aura</strong><br>
+    Maryland, United States<br>
+    <a href="mailto:getaurasupport@gmail.com">getaurasupport@gmail.com</a>
+  </p>
+
+  <footer>
+    © 2026 Aura
+  </footer>
+
+</main>
+</body>
+</html>
