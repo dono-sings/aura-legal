@@ -1,151 +1,142 @@
-Aura Terms of Use
+# Aura Privacy Policy
 
-Effective Date: August 19, 2026
+**Effective Date: August 19, 2026**
 
-1. Agreement to These Terms
+## 1. Introduction
 
-These Terms of Use ("Terms") govern your access to and use of Aura.
+Aura ("Aura," "we," "us," or "our") provides an AI-powered photo analysis service designed to help users evaluate and compare photos based on selected goals, preferences, and other context.
 
-By downloading, accessing, purchasing through, or using Aura, you agree to these Terms. If you do not agree, do not use the service.
+This Privacy Policy explains how information is collected, used, processed, and shared when you use the Aura mobile application and related services.
 
-2. Aura's Service
+If you have questions about this Privacy Policy, contact us at **getaurasupport@gmail.com**.
 
-Aura provides AI-powered tools that analyze and compare user-selected photos according to goals, preferences, audiences, aesthetics, and other context.
+## 2. Information Aura Processes
 
-Features and functionality may change as the service develops.
+### Photos and photo-related information
 
-3. AI-Generated Results
+When you choose photos for analysis, Aura accesses only the photos you select through your device's photo picker.
 
-Aura uses artificial intelligence to generate scores, observations, recommendations, rankings, and other feedback.
+Selected images may be resized or compressed on your device before being transmitted for analysis.
 
-AI-generated results are inherently subjective and may be inaccurate, incomplete, inconsistent, or inappropriate for a particular situation.
+The selected photos are sent to Aura's backend infrastructure and then provided to OpenAI's API so that artificial intelligence models can analyze them and generate your results.
 
-Aura's results are provided for informational and entertainment purposes and should not be treated as professional, medical, psychological, legal, financial, employment, or other professional advice.
+Aura's current backend does not save submitted photos to an Aura database or Supabase Storage. However, third-party service providers involved in processing your request may process or temporarily retain information according to their own policies and service configurations.
 
-You remain responsible for decisions you make based on Aura's results.
+OpenAI states that data submitted through its API is not used to train its models by default unless the API customer opts into data sharing. OpenAI also states that API inputs and outputs may generally be retained for up to 30 days for service operation and abuse monitoring, subject to applicable configurations and legal requirements.
 
-4. Your Photos and Content
+### Analysis preferences and results
 
-You retain your rights in photos and other content you submit to Aura.
+Aura processes information you provide for an analysis, such as your selected goal, vibe, audience, and other analysis settings.
 
-By submitting content for analysis, you authorize Aura and the service providers necessary to operate Aura to process that content for the purpose of providing the requested service.
+OpenAI generates analysis results based on the information and photos submitted with the request.
 
-You represent that you have the rights and permissions necessary to submit the content you provide.
+### Anonymous account information
 
-5. Acceptable Use
+Aura uses Supabase anonymous authentication to create an anonymous user identifier needed to operate and protect the service. Aura does not currently require you to create an account using your name, email address, or password.
 
-You may not use Aura to:
+### Usage and analytics information
 
-violate applicable law;
-infringe another person's intellectual-property or privacy rights;
-interfere with or disrupt Aura or its infrastructure;
-circumvent usage, subscription, authentication, or security controls;
-automate or script excessive requests;
-reverse engineer the service except where applicable law expressly permits it; or
-use Aura in a manner that could damage the service or interfere with other users.
+Aura uses PostHog to understand how people use the app and improve the product.
 
-We may restrict access when reasonably necessary to protect Aura, its users, or its infrastructure.
+Analytics may include events such as:
 
-6. Aura Pro Subscriptions
+- app and screen activity;
+- goals or plans selected;
+- number of photos selected;
+- analysis completion or failure;
+- subscription-paywall interactions; and
+- purchase or restore outcomes.
 
-Aura may offer weekly, monthly, and annual auto-renewable Aura Pro subscriptions.
+Aura's configured analytics events are designed not to send your selected photo files, photo URIs, photo base64 data, AI-generated feedback, authentication tokens, or raw RevenueCat customer information to PostHog.
 
-Available subscription periods and prices are displayed in the app before purchase. Prices may vary by country or region and are presented using Apple's localized App Store pricing.
+Touch autocapture is currently disabled, and Session Replay is currently disabled.
 
-Apple requires the full renewal amount to be clearly presented during the subscription signup process.
+### Subscription information
 
-7. Billing and Automatic Renewal
+If you purchase Aura Pro, purchases are processed through Apple's App Store and StoreKit. Aura uses RevenueCat to manage subscription products, purchase status, restoration, and entitlement information.
 
-Purchases made through the iOS application are charged to your Apple Account at confirmation of purchase.
+Aura does not directly receive or process your full payment-card information.
 
-Aura Pro subscriptions automatically renew for the selected subscription period unless cancelled in accordance with Apple's subscription procedures.
+### Abuse-prevention information
 
-Apple manages subscription billing and renewal through the App Store.
+Aura maintains limited server-side usage counters associated with an anonymous user identifier to prevent automated abuse and excessive requests.
 
-Subscription prices, availability, and applicable taxes may vary by region.
+These counters contain request counts and timestamps. They are not designed to contain submitted photos, prompts, AI-generated results, RevenueCat data, or PostHog analytics data.
 
-8. Cancellation
+## 3. How We Use Information
 
-You can manage or cancel an Aura Pro subscription through your Apple Account's subscription settings.
+We use information processed through Aura to:
 
-Deleting Aura from your device does not automatically cancel an active subscription.
+- provide photo analysis and comparison features;
+- generate AI-powered results;
+- maintain and improve Aura;
+- understand general app usage and performance;
+- manage Aura Pro subscription access;
+- restore purchases;
+- prevent abuse and excessive automated requests;
+- troubleshoot errors and maintain reliability; and
+- comply with applicable legal obligations.
 
-Cancellation generally stops future renewals rather than retroactively cancelling time already purchased, subject to Apple's applicable terms and policies.
+## 4. Service Providers
 
-9. Refunds
+Aura relies on third-party providers to operate portions of the service, including:
 
-Purchases made through Apple's App Store are subject to Apple's applicable payment and refund policies.
+**OpenAI** — AI processing and generation.
 
-Aura does not independently control Apple's decisions regarding App Store refunds.
+**Supabase** — backend infrastructure, authentication, Edge Functions, and database services.
 
-10. Restore Purchases
+**RevenueCat** — subscription and entitlement management.
 
-Aura provides a Restore Purchases feature for eligible App Store purchases.
+**PostHog** — product analytics.
 
-Restoration depends on Apple's purchase records and the subscription information available through the services Aura uses to manage entitlements.
+**Apple** — App Store distribution, StoreKit purchases, subscription billing, and related platform services.
 
-11. Free Access
+These providers may process information according to their respective terms, privacy policies, and service configurations.
 
-Aura may provide limited access to certain features without an Aura Pro subscription.
+## 5. Photo Storage
 
-Unless Aura explicitly presents an App Store subscription trial, free access to an Aura feature should not be interpreted as a free trial of an Aura Pro subscription.
+Aura's current application architecture does not intentionally save submitted analysis photos to an Aura database or Supabase Storage.
 
-12. Aura Intellectual Property
+Photos must nevertheless be transmitted to the services necessary to perform the requested analysis, including OpenAI.
 
-Aura, including its software, branding, interface, designs, graphics, and other service materials excluding user-submitted content, is owned by or licensed to Aura and is protected by applicable intellectual-property laws.
+We do not promise that every third-party processor immediately deletes information after an analysis. Retention by third-party providers is governed by their applicable policies, agreements, and configurations.
 
-These Terms do not transfer ownership of Aura's intellectual property to you.
+## 6. Data Security
 
-13. Third-Party Services
+We take reasonable measures designed to protect information handled through Aura. However, no electronic transmission, service, or storage system can be guaranteed to be completely secure.
 
-Aura relies on third-party services, including Apple, OpenAI, Supabase, RevenueCat, and PostHog.
+You should only submit photos and information that you are comfortable providing for AI analysis.
 
-Availability or performance of Aura may therefore be affected by services outside Aura's direct control.
+## 7. Your Choices
 
-14. Service Availability and Changes
+You control which photos you select for analysis.
 
-We aim to keep Aura available and functioning, but we do not guarantee uninterrupted or error-free operation.
+You may decline to select or submit a photo, although Aura's analysis features cannot operate without the information necessary to perform the requested analysis.
 
-We may modify, suspend, restrict, or discontinue features when reasonably necessary for maintenance, security, product development, legal compliance, or other operational reasons.
+You may manage or cancel an Aura Pro subscription through your Apple Account subscription settings.
 
-15. Disclaimer of Warranties
+Depending on where you live, applicable law may provide additional privacy rights regarding your personal information. You may contact **getaurasupport@gmail.com** with privacy-related requests or questions.
 
-To the extent permitted by applicable law, Aura is provided on an "as is" and "as available" basis.
+## 8. Children's Privacy
 
-We do not guarantee that AI-generated results will be accurate, complete, consistent, or suitable for any particular purpose.
+Aura is not intended for children under 13.
 
-Nothing in these Terms excludes warranties or rights that cannot legally be excluded.
+If we learn that personal information from a child under 13 has been collected in a manner inconsistent with applicable law, we will take appropriate steps to address it.
 
-16. Limitation of Liability
+## 9. International Processing
 
-To the fullest extent permitted by applicable law, Aura and its operator will not be liable for indirect, incidental, special, consequential, or punitive damages arising from or relating to your use of, inability to use, or reliance on Aura.
+The third-party providers used to operate Aura may process information in locations outside your state, country, or region. Privacy protections may differ between jurisdictions.
 
-Nothing in these Terms limits liability where such limitation is prohibited by applicable law.
+## 10. Changes to This Privacy Policy
 
-17. Termination or Restriction
+We may update this Privacy Policy as Aura evolves or as legal, technical, or operational requirements change.
 
-We may suspend or restrict access to Aura if we reasonably believe you have violated these Terms, abused the service, attempted to circumvent its protections, or created a risk to Aura or other users.
+When we make changes, we may update the effective date displayed at the top of this policy.
 
-18. Changes to These Terms
+## 11. Contact
 
-We may update these Terms as Aura evolves.
+For privacy questions or requests:
 
-If we make changes, we may update the effective date displayed above. Your continued use of Aura after updated Terms become effective constitutes acceptance to the extent permitted by applicable law.
-
-19. Governing Law
-
-These Terms are governed by the laws of the State of Maryland, United States, without regard to conflict-of-law principles, except where applicable consumer law requires otherwise.
-
-20. Apple
-
-When Aura is downloaded through Apple's App Store, your use of the application is also subject to applicable Apple terms and policies.
-
-Apple is not responsible for Aura's AI-generated content or the operation of Aura except to the extent required under Apple's applicable agreements or law.
-
-21. Contact
-
-Questions about these Terms can be sent to:
-
-Aura
-Maryland, United States
-getaurasupport@gmail.com
+**Aura**  
+Maryland, United States  
+**getaurasupport@gmail.com**
